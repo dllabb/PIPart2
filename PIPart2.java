@@ -24,7 +24,7 @@ public class PIPart2 {
         int n;
         double PI;
         System.out.println("type in the number of drops(Better higher than 1000000)");
-        //The bigger the number, the more accurate//
+        //The bigger the number, the more accurate, i think when the number is higher than 999999, we can get 3.141, which we needed.//
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
         PI = montePI(n);
